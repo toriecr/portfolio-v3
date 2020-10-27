@@ -1,0 +1,64 @@
+/*
+=============== 
+Intro
+===============
+*/
+.intro {
+  margin-top: -5rem;
+  padding-top: 5rem;
+  height: 100vh;
+  position: relative;
+}
+
+.intro-center {
+  height: 100%;
+  display: grid;
+  align-items: center;
+}
+
+.intro-info h4 {
+  color: var(--clr-grey-5);
+}
+
+.intro-icons {
+  justify-items: flex-start;
+}
+
+.intro .btn {
+  margin-top: 1.25rem;
+}
+
+@media screen and (min-width: 992px) {
+  .intro::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 65%;
+    right: 0;
+    bottom: 0;
+  }
+
+  .intro-center {
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .intro h4 {
+    font-size: 0.85rem;
+  }
+
+  .intro-info {
+    grid-row: 1/1;
+    grid-column: 1 / span 8;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .intro h4{
+    font-size: 1rem;
+    line-height: 1;
+  }
+
+  .intro-info {
+    grid-column: 1 / span 8;
+  }
+}
