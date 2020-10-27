@@ -1,8 +1,6 @@
 import React from "react"
 import Title from "./Title"
 import Project from "./Project"
-import { Link } from "gatsby"
-import { FaGithubSquare, FaShareSquare } from "react-icons/fa"
 
 const data = [
   {
@@ -24,7 +22,8 @@ const data = [
       }
     ], 
     github: "https://github.com/",
-    url: "https://github.com/"
+    url: "https://github.com/",
+    imgsrc: "image1.jpg"
   }, 
   {
     id: 2, 
@@ -45,7 +44,8 @@ const data = [
       }
     ],
     github: "https://github.com/",
-    url: "https://github.com/"
+    url: "https://github.com/",
+    imgsrc: "image2.jpg"
   }
 ]
 

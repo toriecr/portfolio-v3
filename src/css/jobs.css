@@ -53,15 +53,16 @@ Jobs
   letter-spacing: var(--spacing);
 }
 .job-desc {
-  display: grid;
+  /* display: grid;
   grid-template-columns: auto 1fr;
-  column-gap: 2rem;
+  column-gap: 2rem; */
   align-items: center;
   margin-bottom: 1.25rem;
 }
 .job-desc p {
   margin-bottom: 0;
   color: var(--clr-grey-3);
+  display: inline-block;
 }
 .job-icon {
   color: var(--clr-primary-5);

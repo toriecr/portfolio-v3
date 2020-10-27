@@ -1,10 +1,10 @@
 import React from "react"
-import Image from "gatsby-image"
 import { FaGithubSquare, FaShareSquare } from "react-icons/fa"
+import Image from "./Image"
 
 const Project = (props) => {
   return <article className="project">
-    {/* <Image /> */}
+    <Image imgsrc={props.imgsrc} className="project-img" />
     <div className="project-info">
       <span className="project-number">{props.id}</span>
       <h3>{props.title}</h3>
