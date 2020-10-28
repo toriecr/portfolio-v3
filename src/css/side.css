@@ -1,0 +1,14 @@
+/* change so that can only see it at 1366 and above */
+.side {
+  position: fixed;
+  bottom: 0;
+  right: 1rem;
+  width: 30px;
+  height: 100px;
+  /* background-color: purple; */
+  z-index: 999;
+}
+
+.side-link {
+  color: white;
+}

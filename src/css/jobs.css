@@ -4,6 +4,10 @@ Jobs
 ===============
 */
 
+.jobs {
+  /* background: var(--clr-grey-1); */
+}
+
 .jobs-center {
   width: 80vw;
   margin: 0 auto;
@@ -26,6 +30,8 @@ Jobs
   cursor: pointer;
   padding: 0.25rem 0;
   line-height: 1;
+  color: var(--clr-grey-4);
+  outline: none;
 }
 .job-btn:hover {
   color: var(--clr-primary-5);
@@ -61,7 +67,7 @@ Jobs
 }
 .job-desc p {
   margin-bottom: 0;
-  color: var(--clr-grey-3);
+  color: var(--clr-grey-5);
   display: inline-block;
 }
 .job-icon {
