@@ -1,5 +1,5 @@
 import React from "react"
-import { FaLinkedin, FaGithub } from "react-icons/fa"
+import { FaLinkedin, FaGithub, FaTwitter, FaCodepen } from "react-icons/fa"
 
 const data = [
     {
@@ -11,6 +11,16 @@ const data = [
         id: 2,
         icon: <FaGithub className="social-icon"></FaGithub>,
         url: "https://github.com/toriecr"
+    },
+    {
+        id: 3,
+        icon: <FaTwitter className="social-icon"></FaTwitter>,
+        url: "https://twitter.com"
+    },
+    {
+        id: 4,
+        icon: <FaCodepen className="social-icon"></FaCodepen>,
+        url: "https://codepen.io/"
     }
 ]
 

@@ -1,7 +1,15 @@
 /* change so that can only see it at 1366 and above */
+
+
+@media only screen and (max-width: 1365px) {
+  .side {
+    display: none;
+  }
+}
+
 .side {
   position: fixed;
-  bottom: 0;
+  bottom: 5rem;
   right: 1rem;
   width: 30px;
   height: 100px;

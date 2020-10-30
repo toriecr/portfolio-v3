@@ -6,47 +6,39 @@ import { Link } from "gatsby"
 const data = [
   {
     id: 1, 
-    title: "Node.js project",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+    title: "YelpCamp",
+    desc: "A full-stack RESTful app made alongside Colt Steele's Udemy course.",
     stack: [
       {
         id: 1,
-        stackName: "HTML"
+        stackName: "MongoDB"
       },
       {
         id: 2,
-        stackName: "CSS"
+        stackName: "Express"
       },
       {
         id: 3,
         stackName: "Node.js"
       }
     ], 
-    github: "https://github.com/",
-    url: "https://github.com/",
-    imgsrc: "image1.jpg"
+    github: "https://github.com/toriecr/YelpCamp",
+    url: "https://fast-tor-47641.herokuapp.com/",
+    imgsrc: "yelpcamp.png"
   }, 
   {
     id: 2, 
-    title: "React project",
-    desc: "This was a fun project I guess",
+    title: "Twitter Clone",
+    desc: "A Twitter-like RESTful API made with Ruby on Rails.",
     stack: [
       {
         id: 1,
-        stackName: "React"
-      },
-      {
-        id: 2,
-        stackName: "JavaScript"
-      },
-      {
-        id: 3,
-        stackName: "Node.js"
+        stackName: "Ruby on Rails"
       }
     ],
-    github: "https://github.com/",
-    url: "https://github.com/",
-    imgsrc: "image2.jpg"
+    github: "https://github.com/toriecr/sample_app",
+    url: "https://warm-bayou-61890.herokuapp.com/",
+    imgsrc: "twitter.png"
   }
 ]
 

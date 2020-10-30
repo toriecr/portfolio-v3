@@ -8,15 +8,18 @@ const Intro = () => {
       <article className="intro-info">
         <h1 
           data-sal="slide-up" 
-          data-sal-duration="500">Hello, I'm Torie</h1>
+          data-sal-duration="200">Hello, I'm Torie</h1>
         <h4 
           data-sal="slide-up" 
-          data-sal-duration="500" 
-          data-sal-delay="600">I am a software engineer, specializing in full-stack web development.</h4>
-        <Link to="/contact" className="btn">
-          Contact Me
+          data-sal-duration="200" 
+          data-sal-delay="200">I am a software engineer based in Los Angeles, CA.</h4>
+        <Link 
+        data-sal="slide-up" 
+        data-sal-duration="200" 
+        data-sal-delay="400"
+        to="/#specialties" className="btn">
+          Judge me
         </Link>
-        <SocialLinks styleClass="intro-icons"/>
       </article>
     </div>
   </header>

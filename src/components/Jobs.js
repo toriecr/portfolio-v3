@@ -12,15 +12,15 @@ const data = [
     desc: [
       {
         id: 1,
-        bullet: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
+        bullet: "Developed and maintained websites and applications using HTML, CSS, JavaScript, React, PHP, and various other technologies to meet the needs and goals of clients."
       },
       {
         id: 2,
-        bullet: "Optimized stuff"
+        bullet: "Optimized deployment solution for a client and reduced their yearly hosting costs by 55%."
       },
       {
         id: 3,
-        bullet: "I really did a lot of things."
+        bullet: "Accomplished working proficiency in WordPress development within 5 days to acquire competitive edge over other freelance developers on Upwork.com"
       }
     ]
   },
@@ -32,19 +32,19 @@ const data = [
     desc: [
       {
         id: 1,
-        bullet: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
+        bullet: "Planned and lead engaging coding lessons for elementary school students 2x a week during a school year."
       },
       {
         id: 2,
-        bullet: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
+        bullet: "Instructed students on the fundamentals of programming using interactive team lessons of 3-4 students per group."
       },
       {
         id: 3,
-        bullet: "I really did a lot of things."
+        bullet: "Facilitated 1-hour long coding lessons using Scratch."
       },
       {
         id: 4,
-        bullet: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
+        bullet: "Ensured 100% lesson satisfaction with classroom teacher and students by communicating and requesting feedback and adjusting lesson plans accordingly."
       },
     ]
   }
@@ -55,7 +55,11 @@ const Jobs = () => {
 
   const { company, position, date, desc } = data[value];
 
-  return <section className="section jobs">
+  return <section 
+    className="section jobs"
+    data-sal="slide-left"
+    data-sal-duration="500"
+  >
     <Title title="Experience" />
     <div className="underline"></div>
     <div className="jobs-center">
@@ -88,9 +92,6 @@ const Jobs = () => {
         </div>
       </article>
     </div>
-    <Link to="/about" className="btn center-btn">
-      More Info
-    </Link>
   </section>
 }
 

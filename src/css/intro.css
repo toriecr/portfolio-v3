@@ -8,6 +8,7 @@ Intro
   padding-top: 5rem;
   height: 100vh;
   position: relative;
+  background-image: url(../images/background.jpg);
 }
 
 .intro-center {
