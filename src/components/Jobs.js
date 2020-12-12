@@ -55,11 +55,7 @@ const Jobs = () => {
 
   const { company, position, date, desc } = data[value];
 
-  return <section 
-    className="section jobs"
-    data-sal="slide-left"
-    data-sal-duration="500"
-  >
+  return <section className="section jobs">
     <Title title="Experience" />
     <div className="underline"></div>
     <div className="jobs-center">
