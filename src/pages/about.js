@@ -17,6 +17,7 @@ const About = () => {
             <span>React.js</span>
             <span>Node.js</span>
           </div>
+          <a href="../assets/resume.pdf" className="btn">View Resume</a>
         </article>
       </div>
     </section>

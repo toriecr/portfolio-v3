@@ -24,7 +24,7 @@ const data = [
     ], 
     github: "https://github.com/",
     url: "https://github.com/",
-    imgsrc: "image1.jpg"
+    imgsrc: "yelpcamp.png"
   }, 
   {
     id: 2, 
@@ -46,7 +46,7 @@ const data = [
     ],
     github: "https://github.com/",
     url: "https://github.com/",
-    imgsrc: "image2.jpg"
+    imgsrc: "yelpcamp.png"
   },
   {
     id: 3, 
@@ -68,7 +68,7 @@ const data = [
     ], 
     github: "https://github.com/",
     url: "https://github.com/",
-    imgsrc: "image1.jpg"
+    imgsrc: "yelpcamp.png"
   }
 ]
 
