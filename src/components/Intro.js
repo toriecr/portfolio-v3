@@ -1,8 +1,20 @@
 import React from "react"
-import { Link } from "gatsby"
-import SocialLinks from "../constants/socialLinks"
+import { Link, graphql, useStaticQuery } from "gatsby"
+import Img from "gatsby-image"
 
 const Intro = () => {
+  const data = useStaticQuery(graphql`
+    {
+      image: file(relativePath: {eq: "intro.jpeg"}) {
+        id
+        childImageSharp {
+          fluid(maxWidth: 2592) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `)
   return <header className="intro">
     <div className="section-center intro-center">
       <article className="intro-info">
@@ -12,8 +24,11 @@ const Intro = () => {
           Judge me
         </Link>
       </article>
+      <div className="intro-img">
+        <Img fluid={data.image.childImageSharp.fluid} />
+        <div className="intro-img-overlay"></div>
+      </div>
     </div>
   </header>
 }
-
 export default Intro;
