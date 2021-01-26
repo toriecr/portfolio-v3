@@ -6,13 +6,13 @@ import { Link } from "gatsby"
 const data = [
   {
     id: 1,
-    company: "Self-Employed",
-    position: "Freelance Front-End Developer",
-    date: "May 2020 - Present",
+    company: "Independent Contractor",
+    position: "Front-End Developer",
+    date: "August 2020 - Present",
     desc: [
       {
         id: 1,
-        bullet: "Developed and maintained websites and applications using HTML, CSS, JavaScript, React, PHP, and various other technologies to meet the needs and goals of clients."
+        bullet: "Developed and maintained websites and applications using React, JavaScript, Gatsby, GraphQL, Node.js, and various other technologies to meet the needs and goals of clients."
       },
       {
         id: 2,
@@ -20,7 +20,7 @@ const data = [
       },
       {
         id: 3,
-        bullet: "Accomplished working proficiency in WordPress development within 5 days to acquire competitive edge over other freelance developers on Upwork.com"
+        bullet: "Took initiative on front-end design decisions, and learning new back-end technologies to deliver fast, responsive, and user-friendly applications."
       }
     ]
   },
@@ -40,10 +40,6 @@ const data = [
       },
       {
         id: 3,
-        bullet: "Facilitated 1-hour long coding lessons using Scratch."
-      },
-      {
-        id: 4,
         bullet: "Ensured 100% lesson satisfaction with classroom teacher and students by communicating and requesting feedback and adjusting lesson plans accordingly."
       },
     ]

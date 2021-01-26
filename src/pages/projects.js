@@ -44,34 +44,34 @@ const data = [
     url: "https://jcpcottage.com/",
     imgsrc: "jcp.png"
   }, 
+  // {
+  //   id: 3,
+  //   title: "MERN Math Game",
+  //   desc: "A full-stack game that tests your arithmetic skills, but mostly tests your reflexes. Try to beat my score.",
+  //   stack: [
+  //     {
+  //       id: 1,
+  //       stackName: "MongoDB"
+  //     },
+  //     {
+  //       id: 2,
+  //       stackName: "Express"
+  //     },
+  //     {
+  //       id: 3,
+  //       stackName: "React"
+  //     },
+  //     {
+  //       id: 4,
+  //       stackName: "Node.js"
+  //     }
+  //   ],
+  //   github: "https://github.com/toriecr/jcpcottage-v2",
+  //   url: "https://jcpcottage.com/",
+  //   imgsrc: "jcp.png"
+  // },
   {
-    id: 3,
-    title: "MERN Math Game",
-    desc: "A full-stack game that tests your arithmetic skills, but mostly tests your reflexes. Try to beat my score.",
-    stack: [
-      {
-        id: 1,
-        stackName: "MongoDB"
-      },
-      {
-        id: 2,
-        stackName: "Express"
-      },
-      {
-        id: 3,
-        stackName: "React"
-      },
-      {
-        id: 4,
-        stackName: "Node.js"
-      }
-    ],
-    github: "https://github.com/toriecr/jcpcottage-v2",
-    url: "https://jcpcottage.com/",
-    imgsrc: "jcp.png"
-  },
-  {
-    id: 4, 
+    id: 3, 
     title: "YelpCamp",
     desc: "Everyone's first full-stack application made with Colt Steele's famous Udemy course. Made with the MEN stack and Passport.js for authentication.",
     stack: [
@@ -93,7 +93,7 @@ const data = [
     imgsrc: "yelpcamp.png"
   },
   {
-    id: 5,
+    id: 4,
     title: "Twitter Clone",
     desc: "This is the sample application for Ruby on Rails Tutorial: Learn Web Development with Rails (6th Edition) by Michael Hartl.",
     stack: [
@@ -107,7 +107,7 @@ const data = [
     imgsrc: "twitter.png"
   },
   {
-    id: 6, 
+    id: 5, 
     title: "Portfolio v1",
     desc: "This is the official version 1 of my portfolio, made with HTML and CSS.",
     stack: [
@@ -129,7 +129,7 @@ const data = [
     imgsrc: "portfoliov1.png"
   },
   {
-    id: 7,
+    id: 6,
     title: "Lights Out",
     desc: "A React game coded along with Colt Steele's Modern React course on Udemy.com. The goal of the game is to make all of the squares dark.",
     stack: [{id: 1, stackName: "React"}],
@@ -138,7 +138,7 @@ const data = [
     imgsrc: "lightsout.png"
   },
   {
-    id: 8,
+    id: 7,
     title: "Patatap Clone",
     desc: "A clone of the Patatap App, coded along with Colt Steele's Udemy.com course.",
     stack: [
