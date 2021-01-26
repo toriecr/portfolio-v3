@@ -6,46 +6,50 @@ import { Link } from "gatsby"
 const data = [
   {
     id: 1, 
-    title: "YelpCamp",
-    desc: "A full-stack RESTful app made alongside Colt Steele's Udemy course.",
+    title: "Shumei Arts Council",
+    desc: "A full-stack events application with a headless CMS made by Strapi. Currently a work in progress to improve UI/UX, and code refactoring to better utilize GraphQL's speed and optimization.",
     stack: [
       {
         id: 1,
-        stackName: "MongoDB"
+        stackName: "React"
       },
       {
         id: 2,
-        stackName: "Express"
+        stackName: "Node.js"
       },
       {
         id: 3,
-        stackName: "Node.js"
+        stackName: "GraphQL"
       }
     ], 
-    github: "https://github.com/toriecr/YelpCamp",
-    url: "https://fast-tor-47641.herokuapp.com/",
-    imgsrc: "yelpcamp.png"
+    github: "https://github.com/toriecr/shumei-arts-client",
+    url: "https://shumei-arts.herokuapp.com/",
+    imgsrc: "shumei-arts.png"
   }, 
   {
     id: 2, 
-    title: "Twitter Clone",
-    desc: "A Twitter-like RESTful API made with Ruby on Rails.",
+    title: "JCP Cottage",
+    desc: "A fast, responsive site for a residential care facility. Made with React and enhanced by Gatsby.",
     stack: [
       {
         id: 1,
-        stackName: "Ruby on Rails"
+        stackName: "React"
+      },
+      {
+        id: 2,
+        stackName: "Gatsby"
       }
     ],
-    github: "https://github.com/toriecr/sample_app",
-    url: "https://warm-bayou-61890.herokuapp.com/",
-    imgsrc: "twitter.png"
+    github: "https://github.com/toriecr/jcpcottage-v2",
+    url: "https://jcpcottage.com/",
+    imgsrc: "jcp.png"
   }
 ]
 
 const Projects = () => {
   return (
     <section className="section projects">
-      <Title title="Featured Projects" />
+      <Title title="Projects I've Worked On" />
       <div className="underline"></div>
       <div className="section-center projects-center">
         {

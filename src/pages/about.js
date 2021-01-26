@@ -23,7 +23,9 @@ const About = () => {
         <Img fluid={data.image.childImageSharp.fluid} className="about-img"/>  
         <article className="about-text">
           <Title title="About Me" />
-          <p>I graduated from USC with a B.S. in Physics and Computer Science in 2020. I love technology. I love making things look pretty. I love logic.</p>
+          <p>
+            I got my B.S. in Physics and Computer Science from the University of Southern California. Outside of physics and coding, my life is almost as exciting. I run marathons, climb, and enjoy wine. 
+          </p>
           <div className="about-stack">
             <span>HTML/CSS</span>
             <span>JavaScript</span>
