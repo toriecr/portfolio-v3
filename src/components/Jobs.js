@@ -1,7 +1,6 @@
 import React from "react"
 import Title from "./Title"
 import { FaAngleDoubleRight } from "react-icons/fa"
-import { Link } from "gatsby"
 
 const data = [
   {

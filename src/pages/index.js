@@ -6,7 +6,6 @@ import Projects from "../components/Projects"
 import Services from "../components/Services"
 import Side from "../components/Side"
 import { Parallax } from "react-parallax"
-import { Link } from "gatsby"
 
 const image1 =
   "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80";
@@ -41,7 +40,7 @@ export default () => {
         <div style={parallaxStyles}>
           <div style={insideStyles}>
             <h2>Cut to the chase?</h2>
-            <Link to="/" className="btn" style={btnStyle}>View resume already</Link>
+            <a href="resume.pdf" className="btn" style={btnStyle}>View resume already</a>
           </div>
         </div>
       </div>
