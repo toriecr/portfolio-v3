@@ -11,10 +11,10 @@ const Side = () => {
         <a className="social-link side-link" href="https://github.com/toriecr"><FaGithub className="social-icon"></FaGithub></a>
       </li>
       <li>
-        <a className="social-link side-link" href="https://twitter"><FaTwitter className="social-icon"></FaTwitter></a>
+        <a className="social-link side-link" href="https://twitter.com/torie_cr"><FaTwitter className="social-icon"></FaTwitter></a>
       </li>
       <li>
-        <a className="social-link side-link" href="https://codepen.io/"><FaCodepen className="social-icon"></FaCodepen></a>
+        <a className="social-link side-link" href="https://codepen.io/toriecr"><FaCodepen className="social-icon"></FaCodepen></a>
       </li>
     </ul>
   </div>

@@ -40,7 +40,7 @@ export default () => {
         <div style={parallaxStyles}>
           <div style={insideStyles}>
             <h2>Cut to the chase?</h2>
-            <a href="resume.pdf" className="btn" style={btnStyle}>View resume already</a>
+            <a href="resume.pdf" target="_blank" className="btn" style={btnStyle}>View resume already</a>
           </div>
         </div>
       </div>

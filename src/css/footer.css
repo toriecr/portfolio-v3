@@ -4,11 +4,15 @@
   ===============
 */
 .footer {
-  height: 9rem;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 11rem;
   background: #222;
   text-align: center;
   display: grid;
   place-items: center;
+  z-index: 999;
 }
 .footer h4 {
   margin-top: 0.5rem;

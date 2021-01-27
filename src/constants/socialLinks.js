@@ -15,12 +15,12 @@ const data = [
 	{
 		id: 3,
 		icon: <FaTwitter className="social-icon"></FaTwitter>,
-		url: "https://twitter.com"
+		url: "https://twitter.com/torie_cr"
 	},
 	{
 		id: 4,
 		icon: <FaCodepen className="social-icon"></FaCodepen>,
-		url: "https://codepen.io/"
+		url: "https://codepen.io/toriecr"
 	}
 ]
 

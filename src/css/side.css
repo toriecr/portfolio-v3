@@ -13,8 +13,7 @@
   right: 1rem;
   width: 30px;
   height: 100px;
-  /* background-color: purple; */
-  z-index: 999;
+  z-index: 900;
 }
 
 .side-link {

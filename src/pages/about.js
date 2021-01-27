@@ -32,7 +32,7 @@ const About = () => {
             <span>React.js</span>
             <span>Node.js</span>
           </div>
-          <a href="/resume.pdf" className="btn" style={{marginTop: `1rem`}}>View Resume</a>
+          <a href="/resume.pdf" target="_blank" className="btn" style={{marginTop: `1rem`}}>View Resume</a>
         </article>
       </div>
     </section>
