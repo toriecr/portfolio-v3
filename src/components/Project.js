@@ -15,10 +15,10 @@ const Project = (props) => {
         })}
       </div>
       <div className="project-links">
-        <a href={props.github}>
+        <a href={props.github} target="_blank">
           <FaGithubSquare className="project-icon" />
         </a>
-        <a href={props.url}>
+        <a href={props.url} target="_blank">
           <FaShareSquare className="project-icon" />
         </a>
       </div>

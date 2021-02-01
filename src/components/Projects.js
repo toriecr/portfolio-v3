@@ -6,8 +6,8 @@ import { Link } from "gatsby"
 const data = [
   {
     id: 1, 
-    title: "Shumei Arts Council",
-    desc: "A full-stack events application with a headless CMS made by Strapi. Currently a work in progress to improve UI/UX, and code refactoring to better utilize GraphQL's speed and optimization.",
+    title: "Tesla Landing Page",
+    desc: "A clone of the Tesla landing page.",
     stack: [
       {
         id: 1,
@@ -16,15 +16,11 @@ const data = [
       {
         id: 2,
         stackName: "Node.js"
-      },
-      {
-        id: 3,
-        stackName: "GraphQL"
       }
     ], 
-    github: "https://github.com/toriecr/shumei-arts-client",
-    url: "https://shumei-arts.herokuapp.com/",
-    imgsrc: "shumei-arts.png"
+    github: "https://github.com/toriecr/tesla-clone",
+    url: "https://toriecr.github.io/tesla-clone/",
+    imgsrc: "tesla.png"
   }, 
   {
     id: 2, 
